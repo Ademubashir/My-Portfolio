@@ -6,12 +6,13 @@
     <title>My Portfolio Website</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <header class="header">
-        <img src="logo.png" alt="">
+        <img src="images/logo.png" alt="">
         <a href="#" class="logo"><span>Code Craft By Mubashir</span></a>
 
         <ul class="nav-links">
@@ -40,7 +41,7 @@
 
     <section id="about" class="about">
         <div class="about-container">
-            <img src="logo.jpeg" alt="mylogo">
+            <img src="images/logo.jpeg" alt="mylogo">
 
             <div class="info-box">
 
@@ -52,12 +53,16 @@
 
                 <div class="btn-group">
                     <div class="btn">View Profile</div>
-                    <div class="btn">Contact</div>
+                    <div class="btn"><a href="contact.html">Contact</a></div>
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://github.com/Ademubashir" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mubashir-adegoke-3627b8435" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
                 </div>
 
             </div>
@@ -119,34 +124,38 @@
         <div class="projects-grid">
 
             <div class="projects-card">
-                <img src="project_1.png" alt="">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae minus esse.</p>
+                <img src="project_1.png" alt="Screenshot of the Tajneed admin dashboard">
+                <h3>Tajneed Registration App</h3>
+                <p>A membership app for AMSA Osun State. Members register themselves, and admins log in to search, edit, delete and export the list to CSV. Built with Flask and PostgreSQL, and deployed on Render.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <a class="btn" href="https://tajneed-app.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    <!-- TODO: replace with the Tajneed repo link -->
+                    <a class="btn" href="https://github.com/Ademubashir" target="_blank" rel="noopener noreferrer">Github Repo</a>
                 </div>
-            </div>    
+            </div>
 
             <div class="projects-card">
-                <img src="project_2.png" alt="">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae minus esse.</p>
+                <img src="project_2.png" alt="Screenshot of the ADEX Global Resources website">
+                <h3>ADEX Global Resources</h3>
+                <span class="status-badge">In progress</span>
+                <p>A responsive website for a Lagos audit, tax and accounting consultancy, built for a real client. It has Home, About, Services and Contact pages, a contact form that sends enquiries by email, and a logo I designed.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <span class="btn btn-disabled">Live Demo Soon</span>
+                    <!-- TODO: replace with the ADEX website repo link, or remove this button if the repo is private -->
+                    <a class="btn" href="https://github.com/Ademubashir" target="_blank" rel="noopener noreferrer">Github Repo</a>
                 </div>
-            </div>    
+            </div>
 
             <div class="projects-card">
-                <img src="project_3.png" alt="">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae minus esse.</p>
+                <img src="project_3.png" alt="Screenshot of the Campus Marketplace browse page">
+                <h3>Campus Marketplace</h3>
+                <p>A marketplace where students list textbooks, gadgets and more to sell. It has search and filters, photo uploads, and WhatsApp contact for buyers. Built with a React frontend and a Flask API.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <span class="btn btn-disabled">Live Demo Soon</span>
+                    <!-- TODO: replace with the Campus Marketplace repo link -->
+                    <a class="btn" href="https://github.com/Ademubashir" target="_blank" rel="noopener noreferrer">Github Repo</a>
                 </div>
-            </div>    
+            </div>
 
         </div>
     </section>

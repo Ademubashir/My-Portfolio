@@ -312,6 +312,29 @@ section{
     font-weight: 600;
 }
 
+/* project buttons that are real links, and "coming soon" buttons */
+a.btn{
+    color: inherit;
+}
+
+/* "In progress" tag on a project card */
+.status-badge{
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border: 1px solid #f59e0b;
+    border-radius: 3rem;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.btn.btn-disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 /* Contact Section */
 
 .input-box{
